@@ -1,0 +1,4 @@
+version=3
+
+opts=dversionmangle=s/\+repack// \
+http://sf.net/chordii/chordii-(.+)\.tar\.gz

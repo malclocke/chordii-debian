@@ -1,0 +1,18 @@
+--- a/src/iso.c
++++ b/src/iso.c
+@@ -22,7 +22,7 @@
+ 	printf("%%  iso.ps  reencodeing of ISO 8859-1 8-bit french characters\n");
+ 	printf("%%\n");
+ 	printf("/reencodedict 5 dict def\n");
+-	printf("/ReEncode\n");
++	printf("/Re-encode\n");
+ 	printf("  { reencodedict begin\n");
+ 	printf("      /newencoding exch def\n");
+ 	printf("      /newfontname exch def\n");
+@@ -246,5 +246,5 @@
+ void re_encode (font)
+ char *font;
+ 	{
+-	printf("/%s /%s ISO ReEncode\n", font, font); 
++	printf("/%s /%s ISO Re-encode\n", font, font); 
+ 	}

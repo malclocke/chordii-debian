@@ -1,0 +1,43 @@
+--- a/man/chordii.1
++++ b/man/chordii.1
+@@ -88,8 +88,8 @@
+ .B \-t \fItext_font size\fB
+ Sets the size, in points, of the font used to display the lyrics to the
+ specified integer value. The title line is displayed using that point
+-size + 5. The sub-tiltle is displayed using that point size -2. The
+-\fItablature\fB is displayed using this point-size -2.
++size + 5. The sub-tiltle is displayed using that point size \-2. The
++\fItablature\fB is displayed using this point-size \-2.
+ .TP 8
+ .B \-T \fIText_font\fB
+ Sets the font used to print text to the specified name. That name must be
+@@ -163,7 +163,7 @@
+ specifies a string to be printed right below the title. Many subtitles can be
+ specified
+ .TP 8
+-.B \fBdefine: \fRname \fBbase-fret \fRoffset \fBfrets \fRstr1...str6\f
++.B \fBdefine: \fRname \fBbase-fret \fRoffset \fBfrets \fRstr1...str6
+ defines a new chord called "name". The keyword "base-fret"
+ indicates that the number that follows ("offset") is the first
+ fret that is to be displayed when representing the way this chord is played.
+@@ -200,16 +200,16 @@
+ This directive may only occur in the .chordrc.
+ .TP 8
+ .B textfont: postscript_font
+-same as -T command option
++same as \-T command option
+ .TP 8
+ .B textsize: n
+-same as -t command option
++same as \-t command option
+ .TP 8
+ .B chordfont: postscript_font
+-same as -C command option
++same as \-C command option
+ .TP 8
+ .B chordsize: n
+-same as -c command option
++same as \-c command option
+ .TP 8
+ .B \fBno_grid\fR or \fBng\fR
+ will disable printing of the chord grids for the current song.

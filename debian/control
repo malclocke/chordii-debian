@@ -1,0 +1,19 @@
+Source: chordii
+Section: text
+Priority: extra
+Maintainer: Stefan Ritter <xeno@thehappy.de>
+Homepage: http://chordii.sourceforge.net/
+Build-Depends: debhelper (>= 7), quilt
+Standards-Version: 3.8.4
+
+Package: chordii
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Text file (chordpro format) to music sheet converter
+ chordii provides guitar players and other musicians with a tool to
+ produce good looking, self-descriptive music sheets from text files.
+ .
+ chordii reads text files in chordpro format, containing the lyrics of
+ songs, the chords to be played, their descriptions and some other
+ optional data. It produces a PostScript document suitable for viewing
+ and printing.

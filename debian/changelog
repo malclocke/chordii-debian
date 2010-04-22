@@ -1,0 +1,5 @@
+chordii (4.3+repack-1) unstable; urgency=low
+
+  * Initial packaging (Closes: #491964)
+
+ -- Stefan Ritter <xeno@thehappy.de>  Thu, 22 Apr 2010 12:13:44 +0200
