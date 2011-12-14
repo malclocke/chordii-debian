@@ -6,6 +6,7 @@ chordii (4.3+repack-2) unstable; urgency=low
   * Add missing build-arch and build-indep rules
   * Add dh_auto_clean to ensure build tree is pristine
   * Remove blank line from watch file
+  * Update dpkg-source version to 3.0 (quilt)
 
  -- Malcolm Locke <malc@wholemeal.co.nz>  Thu, 08 Dec 2011 21:42:04 +1300
 
