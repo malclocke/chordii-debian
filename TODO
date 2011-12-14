@@ -1,0 +1,49 @@
+[X] replace current examples
+	use songs available under an open license
+[_] add unit tests
+[X] update RPM specfile for v4.0
+	[X] try building directly from tarball using 'rpmbuild -tb'
+[_] use system getopt library
+[_] clean up code
+	[_] reindent
+		suggestion: "indent -bli0 -nut -i4"
+	[_] update "K&R-style" function defs
+[_] allow GNU-style long options (--help, etc)
+[_] implement PDF generation
+	[_] pipe to ps2pdf
+	[_] use pango
+[_] Unicode
+[_] distribution-specific packages
+	[X] Debian/Ubuntu
+	[_] Mac OS X
+	[_] Windows
+[_] include in popular GNU/Linux distributions
+	[_] Fedora
+	[_] Debian
+[_] abstract version information from patchlevel.h
+	[X] remove patchlevel.h in favor of config.h (trunk@23)
+	[_] RPM and DEB generation scripts should use same version numbers
+[_] port to other operating systems
+	[X] Windows
+	[X] Mac OS X
+[_] set up "continuous integration" cron job on sf.net shell server
+	[_] regularly check for new trunk commits
+	[_] automatically build and run unit tests
+	[_] post somewhere on the chordie sf.net Web site
+	[_] perhaps a tool like Cruise Control would be useful for this task
+[_] use user-provided title for PostScript document title
+[_] use user-provided margins for the document
+[_] better way to select which chords are printed
+[_] transpose up different from transpose down
+[_] user defined (language specific) note names, e.g. German, Italian.
+	[_] transposable!
+
+[_] graphical user interface
+	(not likely)
+[_] i18n, L10n
+	maybe just allowing Unicode text input would be good enough
+
+[X] use GNU autotools (trunk@13)
+
+--------------------------------------------------------------------------------
+vim:ft=vo_base

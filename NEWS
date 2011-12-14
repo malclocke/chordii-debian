@@ -1,0 +1,90 @@
+NEW IN VERSION 4.3
+
+* Rebased on Chord 3.6.4.
+  Since this release of Chord is licensed under GPL, Chordii is now
+  legally GPL as well.
+
+NEW IN VERSION 4.2
+
+* Port to Microsoft Windows.
+
+NEW IN VERSION 4.1
+
+* Renamed to Chordii on request of chordie.com.
+
+NEW IN VERSION 4.0
+
+**** Development and support taken over by Johan Vromans
+**** and Adam Monsen (November 2007)
+
+* Project web page: http://chordie.sourceforge.net.
+* Modify to use the GNU Build System.
+* Song titles can be flushed left.
+* Correct some PostScript errors.
+* Fix some crashes.
+
+NEW IN VERSION 3.6.2
+
+**** Last known version by Martin Leclerc and
+**** Mario Dorion (July 1995)
+
+* The CHORDRC variable points to the ".chordrc" file, which can be
+  called anything
+* -P option selects the paper size
+* better handling of -2 and -4 options
+* better handling of paper formats
+
+NEW IN VERSION 3.6
+
+* Song index is sorted
+* .chordrc is read only once per execution
+* Speed improvement by a factor of ~5
+* support of multiple columns
+* better (I hope...) support of A4 format
+* inclusion of a2crd to convert ASCII files to chord format
+* Chords defined multiples times ALL stay in the known chord structure, so
+  that 'chord -D' shows them all, even if the names are duplicates.
+* bug fixes
+
+NEW IN VERSION 3.5
+
+* Generation of PostScript indexes.
+* Generation of PostScript chord-charts.
+* Additional 'comments' style (box and italic).
+* Directive to set a monospace font (ie: not-proportional) suitable for
+  tabs.
+* Support for A4 paper format.
+* Page numbers are now "physical page numbers".
+* Chord-charts (-dump option) now include chords from .chordrc file.
+* Option to print/not-print page numbers.
+* Option to print/not-print chord grids.
+* Option to print grids only for "difficult" chords.
+* Directive to force a physical page break.
+* Directive to force a virtual page break.
+* Chords are printed in a logical order.
+* Special chord [N.C.] (no-chord) without a chord grid.
+* New (and improved!) {define} syntax.
+* Chord names and directives are case-insensitive.
+* Public domain getopt() routine (for portability).
+* (almost) lint free (better portability)
+* Ansi-C compliant
+* ... and bug fixes
+
+NEW IN VERSION 1.2
+
+* More flexible Page Numbering
+  - Left/right
+  - always-present
+  - an option for simgle spacing on lines with no chords
+* Distinction between an unplayed string and a buffed one
+* TOC generation
+* Some bug fixes
+
+NEW IN VERSION 1.1
+
+* CHORD supports transposition. See the man page.
+* miscellanious bug fixes, including dubious coding that kept IBM and
+  SGI from executing CHORD properly
+* the grids now indicate string played open
+* Error messages noe correctly report the name of the file and
+  the line number where the error was found
