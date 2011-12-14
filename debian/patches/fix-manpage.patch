@@ -1,3 +1,5 @@
+Description: Fixes several formatting errors in the man page.
+Applied-Upstream: http://chordii.git.sourceforge.net/git/gitweb.cgi?p=chordii/chordii;a=commit;h=ec7aeabc260ccb2a1bf2ed2db5f733d61934093e
 --- a/man/chordii.1
 +++ b/man/chordii.1
 @@ -88,8 +88,8 @@

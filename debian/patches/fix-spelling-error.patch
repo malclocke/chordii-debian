@@ -1,3 +1,4 @@
+Description: Fixes spelling error ReEncode -> Re-encode
 --- a/src/iso.c
 +++ b/src/iso.c
 @@ -22,7 +22,7 @@

@@ -1,3 +1,14 @@
+chordii (4.3+repack-2) unstable; urgency=low
+
+  * New maintainer. (Closes: #607321)
+  * Add descriptions to existing patches
+  * Update Standards Version to 3.9.2
+  * Add missing build-arch and build-indep rules
+  * Add dh_auto_clean to ensure build tree is pristine
+  * Remove blank line from watch file
+
+ -- Malcolm Locke <malc@wholemeal.co.nz>  Thu, 08 Dec 2011 21:42:04 +1300
+
 chordii (4.3+repack-1) unstable; urgency=low
 
   * Initial packaging (Closes: #491964)

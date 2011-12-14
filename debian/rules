@@ -2,7 +2,9 @@
 
 include /usr/share/quilt/quilt.make
 
-build: build-stamp
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
 build-stamp: $(QUILT_STAMPFN)
 	dh_testdir
 	./configure
@@ -12,6 +14,7 @@ build-stamp: $(QUILT_STAMPFN)
 clean: unpatch
 	dh_testdir
 	dh_testroot
+	dh_auto_clean
 	rm -f build-stamp
 	dh_clean
 

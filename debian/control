@@ -1,10 +1,10 @@
 Source: chordii
 Section: text
 Priority: extra
-Maintainer: Stefan Ritter <xeno@thehappy.de>
+Maintainer: Malcolm Locke <malc@wholemeal.co.nz>
 Homepage: http://chordii.sourceforge.net/
 Build-Depends: debhelper (>= 7), quilt
-Standards-Version: 3.8.4
+Standards-Version: 3.9.2
 
 Package: chordii
 Architecture: any
