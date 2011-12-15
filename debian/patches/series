@@ -1,2 +1,3 @@
 fix-manpage.patch
 fix-spelling-error.patch
+remove-surplus-man-mans-rule.diff
