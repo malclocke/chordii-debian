@@ -1,3 +1,20 @@
 #!/usr/bin/make -f
+
+DEB_UPSTREAM_VERSION := $(shell dpkg-parsechangelog | sed -rne 's,^Version: ([^+]+).*,\1,p')
+
 %:
 	dh $@ --with autoreconf
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=.
+	rm -rf chordii-$(DEB_UPSTREAM_VERSION)
+	tar -xf chordii_$(DEB_UPSTREAM_VERSION).orig.tar.gz
+	rm chordii_$(DEB_UPSTREAM_VERSION).orig.tar.gz
+	rm -rf chordii-$(DEB_UPSTREAM_VERSION)/debian
+	rm chordii-$(DEB_UPSTREAM_VERSION)/examples/everybody-hurts.cho
+	rm chordii-$(DEB_UPSTREAM_VERSION)/examples/love-me-tender.cho
+	mv chordii-$(DEB_UPSTREAM_VERSION) chordii-$(DEB_UPSTREAM_VERSION)+repack
+	GZIP=--best tar -cz --owner root --group root --mode a+rX \
+			 -f chordii_$(DEB_UPSTREAM_VERSION)+repack.orig.tar.gz \
+			 chordii-$(DEB_UPSTREAM_VERSION)+repack
+	rm -r chordii-$(DEB_UPSTREAM_VERSION)+repack

@@ -7,6 +7,7 @@ chordii (4.3+repack-2) unstable; urgency=low
   * Update dpkg-source version to 3.0 (quilt)
   * Update to dh rules.tiny
   * Remove redundant man_MANS from man/Makefile.am
+  * Replace debian/repack.sh with debian/rules get-orig-source
 
  -- Malcolm Locke <malc@wholemeal.co.nz>  Thu, 08 Dec 2011 21:42:04 +1300
 
