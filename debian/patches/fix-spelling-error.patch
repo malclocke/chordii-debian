@@ -1,5 +1,6 @@
 Description: Fixes spelling error ReEncode -> Re-encode
 Author: Stefan Ritter <xeno@thehappy.de>
+Bug: https://sourceforge.net/tracker/?func=detail&aid=3460901&group_id=194114&atid=948130
 --- a/src/iso.c
 +++ b/src/iso.c
 @@ -22,7 +22,7 @@
