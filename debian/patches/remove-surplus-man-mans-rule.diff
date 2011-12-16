@@ -2,6 +2,7 @@ Description: Removes redundant man_MANS from man/Makefile.am
  dist_man_MANS will be installed *and* included in the dist package, so
  man_MANS is redundant, and causes make install to fail on my system due
  to trying to install each man page twice.
+Author: Malcolm Locke <malc@wholemeal.co.nz>
 Bug: http://sourceforge.net/tracker/?func=detail&aid=3458945&group_id=194114&atid=948130
 Applied-Upstream: http://chordii.git.sourceforge.net/git/gitweb.cgi?p=chordii/chordii;a=commit;h=175e1662e6ef6da5fe6f906b4499fce6c1980db2
 --- a/man/Makefile.am

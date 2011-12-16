@@ -1,4 +1,5 @@
 Description: Fixes spelling error ReEncode -> Re-encode
+Author: Stefan Ritter <xeno@thehappy.de>
 --- a/src/iso.c
 +++ b/src/iso.c
 @@ -22,7 +22,7 @@

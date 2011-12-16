@@ -1,7 +1,7 @@
 chordii (4.3+repack-2) unstable; urgency=low
 
   * New maintainer. (Closes: #607321)
-  * Add descriptions to existing patches
+  * Add DEP-3 tags to existing patches
   * Update Standards Version to 3.9.2
   * Remove blank line from watch file
   * Update dpkg-source version to 3.0 (quilt)
