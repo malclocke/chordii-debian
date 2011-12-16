@@ -3,7 +3,7 @@ Section: text
 Priority: extra
 Maintainer: Malcolm Locke <malc@wholemeal.co.nz>
 Homepage: http://chordii.sourceforge.net/
-Build-Depends: debhelper (>= 7), dh-autoreconf, quilt
+Build-Depends: debhelper (>= 7), dh-autoreconf
 Standards-Version: 3.9.2
 
 Package: chordii
