@@ -10,6 +10,7 @@ chordii (4.3+repack-2) unstable; urgency=low
   * Replace debian/repack.sh with debian/rules get-orig-source
   * Remove quilt instructions from README.source
   * Bump debhelper compat to 8
+  * Install upstream NEWS file as changelog
 
  -- Malcolm Locke <malc@wholemeal.co.nz>  Thu, 08 Dec 2011 21:42:04 +1300
 
